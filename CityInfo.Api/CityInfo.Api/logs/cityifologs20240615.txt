@@ -1,0 +1,67 @@
+2024-06-15 22:19:22.223 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-15 22:19:22.304 +03:30 [DBG] Hosting starting
+2024-06-15 22:19:22.377 +03:30 [INF] User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 22:19:22.380 +03:30 [DBG] Reading data from file 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys\key-62570848-c96d-47b5-8dc9-4f0848246fcf.xml'.
+2024-06-15 22:19:22.416 +03:30 [DBG] Reading data from file 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys\key-687b1ff5-5440-4ddd-a4dd-abd71a5526aa.xml'.
+2024-06-15 22:19:22.426 +03:30 [DBG] Reading data from file 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys\key-6abccc4b-7344-4416-a8eb-043267015086.xml'.
+2024-06-15 22:19:22.434 +03:30 [DBG] Reading data from file 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys\key-e145cde9-6803-4915-82d6-46907c54974f.xml'.
+2024-06-15 22:19:22.447 +03:30 [DBG] Found key {62570848-c96d-47b5-8dc9-4f0848246fcf}.
+2024-06-15 22:19:22.451 +03:30 [DBG] Found key {687b1ff5-5440-4ddd-a4dd-abd71a5526aa}.
+2024-06-15 22:19:22.452 +03:30 [DBG] Found key {6abccc4b-7344-4416-a8eb-043267015086}.
+2024-06-15 22:19:22.452 +03:30 [DBG] Found key {e145cde9-6803-4915-82d6-46907c54974f}.
+2024-06-15 22:19:22.456 +03:30 [DBG] Considering key {687b1ff5-5440-4ddd-a4dd-abd71a5526aa} with expiration date 2024-08-08 19:27:09Z as default key.
+2024-06-15 22:19:22.457 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-15 22:19:22.458 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-06-15 22:19:22.459 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-15 22:19:22.461 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-06-15 22:19:22.462 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-06-15 22:19:22.464 +03:30 [DBG] Using key {687b1ff5-5440-4ddd-a4dd-abd71a5526aa} as the default key.
+2024-06-15 22:19:22.464 +03:30 [DBG] Key ring with default key {687b1ff5-5440-4ddd-a4dd-abd71a5526aa} was loaded during application startup.
+2024-06-15 22:19:22.595 +03:30 [DBG] Loaded hosting startup assembly CityInfo.Api
+2024-06-15 22:19:22.595 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-15 22:19:22.595 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-06-15 22:19:22.595 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-15 22:19:22.595 +03:30 [INF] Hosting environment: Development
+2024-06-15 22:19:22.595 +03:30 [INF] Content root path: D:\WebApiProject\CityInfo.Api\CityInfo.Api\
+2024-06-15 22:19:22.595 +03:30 [DBG] Hosting started
+2024-06-15 22:19:22.607 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger - -
+2024-06-15 22:19:22.622 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-06-15 22:19:22.649 +03:30 [DBG] Connection ID "18374686532016537601" disconnecting.
+2024-06-15 22:19:22.652 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger - - - 301 - - 46.7910ms
+2024-06-15 22:19:22.653 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - -
+2024-06-15 22:19:22.685 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-06-15 22:19:22.799 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-06-15 22:19:22.799 +03:30 [DBG] Connection ID "18014398566121865217" disconnecting.
+2024-06-15 22:19:22.799 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - - - 200 - text/html;charset=utf-8 146.4946ms
+2024-06-15 22:19:22.803 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - -
+2024-06-15 22:19:22.803 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - -
+2024-06-15 22:19:22.803 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui.css - -
+2024-06-15 22:19:22.803 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui-standalone-preset.js - -
+2024-06-15 22:19:22.805 +03:30 [DBG] Connection ID "18158513758492688385" disconnecting.
+2024-06-15 22:19:22.805 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 2.1486ms
+2024-06-15 22:19:22.810 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - -
+2024-06-15 22:19:22.811 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-15 22:19:22.812 +03:30 [DBG] Connection ID "18374686540606472195" disconnecting.
+2024-06-15 22:19:22.812 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui.css - - - 200 143632 text/css 9.2093ms
+2024-06-15 22:19:22.813 +03:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-15 22:19:22.819 +03:30 [DBG] Connection ID "18230571352530616321" disconnecting.
+2024-06-15 22:19:22.820 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 16.2960ms
+2024-06-15 22:19:22.825 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-15 22:19:22.849 +03:30 [DBG] Connection ID "18302628946568544257" disconnecting.
+2024-06-15 22:19:22.849 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 46.4652ms
+2024-06-15 22:19:22.857 +03:30 [DBG] Connection ID "18374686484771897345" disconnecting.
+2024-06-15 22:19:22.857 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.0340ms
+2024-06-15 22:19:22.954 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_vs/browserLink - -
+2024-06-15 22:19:22.954 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - -
+2024-06-15 22:19:22.956 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-15 22:19:22.973 +03:30 [DBG] Connection ID "18158513741312819201" disconnecting.
+2024-06-15 22:19:22.973 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.4858ms
+2024-06-15 22:19:22.980 +03:30 [DBG] Connection ID "18230571335350747139" disconnecting.
+2024-06-15 22:19:22.980 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 26.1637ms
+2024-06-15 22:19:22.984 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - -
+2024-06-15 22:19:23.026 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/favicon-32x32.png - -
+2024-06-15 22:19:23.027 +03:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-15 22:19:23.027 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/favicon-32x32.png - - - 200 628 image/png 0.4689ms
+2024-06-15 22:19:23.027 +03:30 [DBG] Connection ID "18374686501951766529" disconnecting.
+2024-06-15 22:19:23.068 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.3911ms
+2024-06-15 22:19:23.068 +03:30 [DBG] Connection ID "18230571292401074177" disconnecting.

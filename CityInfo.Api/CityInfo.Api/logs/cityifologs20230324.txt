@@ -1,0 +1,201 @@
+2023-03-24 15:14:07.507 +04:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-24 15:14:07.614 +04:30 [DBG] Hosting starting
+2023-03-24 15:14:07.629 +04:30 [INF] User profile is available. Using 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-24 15:14:07.633 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-93d63c13-ab38-4ac8-878f-6a1ab0efbdcb.xml'.
+2023-03-24 15:14:07.654 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-d08f23d7-6038-487c-bc6f-f62b57552296.xml'.
+2023-03-24 15:14:07.667 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-e761ebac-93cc-41e9-ad87-8e5b6346b634.xml'.
+2023-03-24 15:14:07.689 +04:30 [DBG] Found key {93d63c13-ab38-4ac8-878f-6a1ab0efbdcb}.
+2023-03-24 15:14:07.698 +04:30 [DBG] Found key {d08f23d7-6038-487c-bc6f-f62b57552296}.
+2023-03-24 15:14:07.699 +04:30 [DBG] Found key {e761ebac-93cc-41e9-ad87-8e5b6346b634}.
+2023-03-24 15:14:07.707 +04:30 [DBG] Considering key {e761ebac-93cc-41e9-ad87-8e5b6346b634} with expiration date 2023-05-16 15:21:54Z as default key.
+2023-03-24 15:14:07.709 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-24 15:14:07.712 +04:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-24 15:14:07.715 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-24 15:14:07.719 +04:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-24 15:14:07.722 +04:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-24 15:14:07.726 +04:30 [DBG] Using key {e761ebac-93cc-41e9-ad87-8e5b6346b634} as the default key.
+2023-03-24 15:14:07.726 +04:30 [DBG] Key ring with default key {e761ebac-93cc-41e9-ad87-8e5b6346b634} was loaded during application startup.
+2023-03-24 15:14:07.783 +04:30 [DBG] Loaded hosting startup assembly CityInfo.Api
+2023-03-24 15:14:07.783 +04:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-24 15:14:07.783 +04:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-24 15:14:07.783 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-24 15:14:07.784 +04:30 [INF] Hosting environment: Development
+2023-03-24 15:14:07.784 +04:30 [INF] Content root path: F:\tamrin asp\CityInfo.Api\CityInfo.Api\
+2023-03-24 15:14:07.784 +04:30 [DBG] Hosting started
+2023-03-24 15:14:07.820 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger - -
+2023-03-24 15:14:07.932 +04:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-24 15:14:08.042 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger - - - 301 - - 230.9794ms
+2023-03-24 15:14:08.245 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - -
+2023-03-24 15:14:08.310 +04:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-24 15:14:08.601 +04:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-24 15:14:08.602 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - - - 200 - text/html;charset=utf-8 356.6094ms
+2023-03-24 15:14:08.677 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui.css - -
+2023-03-24 15:14:08.682 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui-standalone-preset.js - -
+2023-03-24 15:14:08.707 +04:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-24 15:14:08.714 +04:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-24 15:14:08.714 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - -
+2023-03-24 15:14:08.716 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 1.7980ms
+2023-03-24 15:14:08.716 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - -
+2023-03-24 15:14:08.768 +04:30 [DBG] Connection ID "18014398515387564039" disconnecting.
+2023-03-24 15:14:08.774 +04:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-24 15:14:08.778 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui.css - - - 200 143632 text/css 101.0130ms
+2023-03-24 15:14:08.800 +04:30 [DBG] Connection ID "17870283327311708161" disconnecting.
+2023-03-24 15:14:08.825 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 143.2099ms
+2023-03-24 15:14:08.923 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 207.1865ms
+2023-03-24 15:14:09.454 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - -
+2023-03-24 15:14:09.814 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 360.0886ms
+2023-03-24 15:14:10.944 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - -
+2023-03-24 15:14:10.944 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 0.6349ms
+2023-03-24 15:14:10.964 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui-standalone-preset.js - -
+2023-03-24 15:14:10.966 +04:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-24 15:14:10.976 +04:30 [DBG] Connection ID "18014398515387564045" disconnecting.
+2023-03-24 15:14:10.978 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 13.8099ms
+2023-03-24 15:14:10.985 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - -
+2023-03-24 15:14:10.990 +04:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-24 15:14:11.021 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 36.4065ms
+2023-03-24 15:15:24.980 +04:30 [INF] Request starting HTTP/2 PATCH https://localhost:44334/api/cities/1/PointOfIntrestDb/2 application/json-patch+json 81
+2023-03-24 15:15:24.980 +04:30 [DBG] PATCH requests are not supported
+2023-03-24 15:15:25.028 +04:30 [DBG] 1 candidate(s) found for the request path '/api/cities/1/PointOfIntrestDb/2'
+2023-03-24 15:15:25.032 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.PointOfIntrestDbController.updetpoint (CityInfo.Api)' with route pattern 'api/cities/{cityId}/PointOfIntrestDb/{pointId}' is valid for the request path '/api/cities/1/PointOfIntrestDb/2'
+2023-03-24 15:15:25.033 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.PointOfIntrestDbController.updetpoint (CityInfo.Api)'
+2023-03-24 15:15:25.703 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-24 15:15:25.705 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.PointOfIntrestDbController.updetpoint (CityInfo.Api)'
+2023-03-24 15:15:25.747 +04:30 [INF] Route matched with {action = "updetpoint", controller = "PointOfIntrestDb"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] updetpoint(Int32, Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.Api.Model.PoinOfInterestForUpdateDto]) on controller CityInfo.Api.Controllers.PointOfIntrestDbController (CityInfo.Api).
+2023-03-24 15:15:25.749 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-24 15:15:25.749 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-24 15:15:25.749 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-24 15:15:25.749 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-24 15:15:25.749 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-24 15:15:25.750 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.PointOfIntrestDbController (CityInfo.Api)
+2023-03-24 15:15:26.055 +04:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-24 15:15:26.252 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.PointOfIntrestDbController (CityInfo.Api)
+2023-03-24 15:15:26.262 +04:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2023-03-24 15:15:26.264 +04:30 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2023-03-24 15:15:26.265 +04:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-03-24 15:15:26.265 +04:30 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-03-24 15:15:26.265 +04:30 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2023-03-24 15:15:26.267 +04:30 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2023-03-24 15:15:26.268 +04:30 [DBG] Attempting to bind parameter 'pointId' of type 'System.Int32' ...
+2023-03-24 15:15:26.269 +04:30 [DBG] Attempting to bind parameter 'pointId' of type 'System.Int32' using the name 'pointId' in request data ...
+2023-03-24 15:15:26.269 +04:30 [DBG] Done attempting to bind parameter 'pointId' of type 'System.Int32'.
+2023-03-24 15:15:26.269 +04:30 [DBG] Done attempting to bind parameter 'pointId' of type 'System.Int32'.
+2023-03-24 15:15:26.269 +04:30 [DBG] Attempting to validate the bound parameter 'pointId' of type 'System.Int32' ...
+2023-03-24 15:15:26.270 +04:30 [DBG] Done attempting to validate the bound parameter 'pointId' of type 'System.Int32'.
+2023-03-24 15:15:26.270 +04:30 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.Api.Model.PoinOfInterestForUpdateDto]' ...
+2023-03-24 15:15:26.271 +04:30 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.Api.Model.PoinOfInterestForUpdateDto]' using the name '' in request data ...
+2023-03-24 15:15:26.272 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-03-24 15:15:26.446 +04:30 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.Api.Model.PoinOfInterestForUpdateDto]'.
+2023-03-24 15:15:26.446 +04:30 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.Api.Model.PoinOfInterestForUpdateDto]'.
+2023-03-24 15:15:26.446 +04:30 [DBG] Attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.Api.Model.PoinOfInterestForUpdateDto]' ...
+2023-03-24 15:15:26.452 +04:30 [DBG] Done attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[CityInfo.Api.Model.PoinOfInterestForUpdateDto]'.
+2023-03-24 15:15:27.458 +04:30 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-24 15:15:27.505 +04:30 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Any(c => c.Id == __cityId_0)'
+2023-03-24 15:15:27.707 +04:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Cities AS c
+                WHERE c.Id == @__cityId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        CityInfo.Api.Context.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-24 15:15:27.759 +04:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-24 15:15:28.115 +04:30 [DBG] Created DbCommand for 'ExecuteReader' (349ms).
+2023-03-24 15:15:28.151 +04:30 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2023-03-24 15:15:28.258 +04:30 [DBG] Opened connection to database 'main' on server 'F:\tamrin asp\CityInfo.Api\CityInfo.Api\CityInfo.Db'.
+2023-03-24 15:15:28.272 +04:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2023-03-24 15:15:28.308 +04:30 [INF] Executed DbCommand (37ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Cities" AS "c"
+    WHERE "c"."Id" = @__cityId_0)
+2023-03-24 15:15:28.318 +04:30 [DBG] A data reader was disposed.
+2023-03-24 15:15:28.321 +04:30 [DBG] Closing connection to database 'main' on server 'F:\tamrin asp\CityInfo.Api\CityInfo.Api\CityInfo.Db'.
+2023-03-24 15:15:28.328 +04:30 [DBG] Closed connection to database 'main' on server 'CityInfo.Db'.
+2023-03-24 15:15:28.331 +04:30 [DBG] Compiling query expression: 
+'DbSet<PointOfIntrest>()
+    .Where(c => c.CityId == __cityId_0 && c.Id == __PointOfIntrestId_1)
+    .FirstOrDefault()'
+2023-03-24 15:15:28.369 +04:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PointOfIntrest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PointOfIntrest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PointOfIntrest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PointOfIntrest.CityId (int) Required FK Index, 1], [Property: PointOfIntrest.Descreption (string) MaxLength(200), 2], [Property: PointOfIntrest.Name (string) Required, 3] }
+            SELECT TOP(1) p.Id, p.CityId, p.Descreption, p.Name
+            FROM pointOfIntrests AS p
+            WHERE (p.CityId == @__cityId_0) && (p.Id == @__PointOfIntrestId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PointOfIntrest>, 
+        CityInfo.Api.Context.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-24 15:15:28.381 +04:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-24 15:15:28.381 +04:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-24 15:15:28.382 +04:30 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2023-03-24 15:15:28.382 +04:30 [DBG] Opened connection to database 'main' on server 'F:\tamrin asp\CityInfo.Api\CityInfo.Api\CityInfo.Db'.
+2023-03-24 15:15:28.382 +04:30 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32), @__PointOfIntrestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Descreption", "p"."Name"
+FROM "pointOfIntrests" AS "p"
+WHERE ("p"."CityId" = @__cityId_0) AND ("p"."Id" = @__PointOfIntrestId_1)
+LIMIT 1
+2023-03-24 15:15:28.383 +04:30 [INF] Executed DbCommand (1ms) [Parameters=[@__cityId_0='?' (DbType = Int32), @__PointOfIntrestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CityId", "p"."Descreption", "p"."Name"
+FROM "pointOfIntrests" AS "p"
+WHERE ("p"."CityId" = @__cityId_0) AND ("p"."Id" = @__PointOfIntrestId_1)
+LIMIT 1
+2023-03-24 15:15:28.398 +04:30 [DBG] Context 'CityInfoContext' started tracking 'PointOfIntrest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-24 15:15:28.434 +04:30 [DBG] A data reader was disposed.
+2023-03-24 15:15:28.434 +04:30 [DBG] Closing connection to database 'main' on server 'F:\tamrin asp\CityInfo.Api\CityInfo.Api\CityInfo.Db'.
+2023-03-24 15:15:28.434 +04:30 [DBG] Closed connection to database 'main' on server 'CityInfo.Db'.
+2023-03-24 15:15:28.456 +04:30 [DBG] SaveChanges starting for 'CityInfoContext'.
+2023-03-24 15:15:28.460 +04:30 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-03-24 15:15:28.475 +04:30 [DBG] The unchanged property 'PointOfIntrest.Name' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-03-24 15:15:28.486 +04:30 [DBG] An entity of type 'PointOfIntrest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-24 15:15:28.489 +04:30 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-03-24 15:15:28.509 +04:30 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2023-03-24 15:15:28.509 +04:30 [DBG] Opened connection to database 'main' on server 'F:\tamrin asp\CityInfo.Api\CityInfo.Api\CityInfo.Db'.
+2023-03-24 15:15:28.512 +04:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-24 15:15:28.516 +04:30 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-24 15:15:28.571 +04:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-24 15:15:28.572 +04:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-24 15:15:28.572 +04:30 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "pointOfIntrests" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2023-03-24 15:15:28.575 +04:30 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "pointOfIntrests" SET "Name" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2023-03-24 15:15:28.583 +04:30 [DBG] A data reader was disposed.
+2023-03-24 15:15:28.586 +04:30 [DBG] Committing transaction.
+2023-03-24 15:15:28.646 +04:30 [DBG] Committed transaction.
+2023-03-24 15:15:28.650 +04:30 [DBG] Closing connection to database 'main' on server 'F:\tamrin asp\CityInfo.Api\CityInfo.Api\CityInfo.Db'.
+2023-03-24 15:15:28.650 +04:30 [DBG] Closed connection to database 'main' on server 'CityInfo.Db'.
+2023-03-24 15:15:28.654 +04:30 [DBG] Disposing transaction.
+2023-03-24 15:15:28.668 +04:30 [DBG] An entity of type 'PointOfIntrest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-24 15:15:28.670 +04:30 [DBG] SaveChanges completed for 'CityInfoContext' with 1 entities written to the database.
+2023-03-24 15:15:28.675 +04:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-03-24 15:15:28.682 +04:30 [INF] Executed action CityInfo.Api.Controllers.PointOfIntrestDbController.updetpoint (CityInfo.Api) in 2927.1931ms
+2023-03-24 15:15:28.683 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.PointOfIntrestDbController.updetpoint (CityInfo.Api)'
+2023-03-24 15:15:28.684 +04:30 [DBG] Connection ID "17365880164751245323" disconnecting.
+2023-03-24 15:15:28.688 +04:30 [DBG] 'CityInfoContext' disposed.
+2023-03-24 15:15:28.697 +04:30 [INF] Request finished HTTP/2 PATCH https://localhost:44334/api/cities/1/PointOfIntrestDb/2 application/json-patch+json 81 - 204 - - 3717.4447ms

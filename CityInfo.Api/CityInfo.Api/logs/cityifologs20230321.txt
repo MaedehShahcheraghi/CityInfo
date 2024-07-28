@@ -1,0 +1,18 @@
+2023-03-21 21:27:52.089 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-21 21:27:52.213 +03:30 [DBG] Hosting starting
+2023-03-21 21:27:52.322 +03:30 [DBG] Loaded hosting startup assembly CityInfo.Api
+2023-03-21 21:27:52.322 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-21 21:27:52.322 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-21 21:27:52.323 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-21 21:27:52.323 +03:30 [INF] Hosting environment: Development
+2023-03-21 21:27:52.323 +03:30 [INF] Content root path: F:\tamrin asp\CityInfo.Api\CityInfo.Api\
+2023-03-21 21:27:52.323 +03:30 [DBG] Hosting started
+2023-03-21 21:27:52.353 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - -
+2023-03-21 21:27:52.440 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-21 21:27:52.640 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-21 21:27:53.644 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-21 21:27:53.646 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - - - 200 - text/html;charset=utf-8 1298.1469ms
+2023-03-21 21:27:53.779 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - -
+2023-03-21 21:27:53.783 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 3.4873ms
+2023-03-21 21:27:54.967 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - -
+2023-03-21 21:27:55.191 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.0570ms

@@ -1,0 +1,475 @@
+2023-03-23 13:37:54.061 +04:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-23 13:37:54.318 +04:30 [DBG] Hosting starting
+2023-03-23 13:37:54.390 +04:30 [INF] User profile is available. Using 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-23 13:37:54.397 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-93d63c13-ab38-4ac8-878f-6a1ab0efbdcb.xml'.
+2023-03-23 13:37:54.486 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-d08f23d7-6038-487c-bc6f-f62b57552296.xml'.
+2023-03-23 13:37:54.529 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-e761ebac-93cc-41e9-ad87-8e5b6346b634.xml'.
+2023-03-23 13:37:54.570 +04:30 [DBG] Found key {93d63c13-ab38-4ac8-878f-6a1ab0efbdcb}.
+2023-03-23 13:37:54.581 +04:30 [DBG] Found key {d08f23d7-6038-487c-bc6f-f62b57552296}.
+2023-03-23 13:37:54.582 +04:30 [DBG] Found key {e761ebac-93cc-41e9-ad87-8e5b6346b634}.
+2023-03-23 13:37:54.591 +04:30 [DBG] Considering key {e761ebac-93cc-41e9-ad87-8e5b6346b634} with expiration date 2023-05-16 15:21:54Z as default key.
+2023-03-23 13:37:54.594 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-23 13:37:54.598 +04:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-23 13:37:54.600 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-23 13:37:54.605 +04:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-23 13:37:54.608 +04:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-23 13:37:54.613 +04:30 [DBG] Using key {e761ebac-93cc-41e9-ad87-8e5b6346b634} as the default key.
+2023-03-23 13:37:54.614 +04:30 [DBG] Key ring with default key {e761ebac-93cc-41e9-ad87-8e5b6346b634} was loaded during application startup.
+2023-03-23 13:37:55.276 +04:30 [DBG] Loaded hosting startup assembly CityInfo.Api
+2023-03-23 13:37:55.276 +04:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-23 13:37:55.276 +04:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-23 13:37:55.276 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 13:37:55.276 +04:30 [INF] Hosting environment: Development
+2023-03-23 13:37:55.276 +04:30 [INF] Content root path: F:\tamrin asp\CityInfo.Api\CityInfo.Api\
+2023-03-23 13:37:55.277 +04:30 [DBG] Hosting started
+2023-03-23 13:37:55.448 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - -
+2023-03-23 13:37:55.491 +04:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-23 13:37:55.722 +04:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-23 13:37:56.181 +04:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-23 13:37:56.185 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - - - 200 - text/html;charset=utf-8 741.5847ms
+2023-03-23 13:37:56.545 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - -
+2023-03-23 13:37:56.601 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 55.7173ms
+2023-03-23 13:38:01.444 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - -
+2023-03-23 13:38:01.759 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 314.9695ms
+2023-03-23 13:39:11.277 +04:30 [INF] Request starting HTTP/2 POST https://localhost:44334/api/Authentication/Authenticate application/json-patch+json 50
+2023-03-23 13:39:11.280 +04:30 [DBG] POST requests are not supported
+2023-03-23 13:39:11.352 +04:30 [DBG] 1 candidate(s) found for the request path '/api/Authentication/Authenticate'
+2023-03-23 13:39:11.356 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)' with route pattern 'api/Authentication/Authenticate' is valid for the request path '/api/Authentication/Authenticate'
+2023-03-23 13:39:11.357 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:39:12.103 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 13:39:12.106 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:39:12.141 +04:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthinticationRequestBody) on controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api).
+2023-03-23 13:39:12.142 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-23 13:39:12.143 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-23 13:39:12.143 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-23 13:39:12.143 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-23 13:39:12.143 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-23 13:39:12.144 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 13:39:12.144 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 13:39:12.149 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 13:39:12.159 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' using the name '' in request data ...
+2023-03-23 13:39:12.161 +04:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-03-23 13:39:12.162 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-03-23 13:39:12.404 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:39:12.404 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:39:12.404 +04:30 [DBG] Attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 13:39:12.418 +04:30 [DBG] Done attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:39:12.627 +04:30 [INF] Executing action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) - Validation state: "Valid"
+2023-03-23 13:39:13.015 +04:30 [INF] Executed action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 378.4211ms.
+2023-03-23 13:39:13.018 +04:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-23 13:39:13.021 +04:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-03-23 13:39:13.022 +04:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-23 13:39:13.023 +04:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 13:39:13.036 +04:30 [INF] Executed action CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) in 885.7369ms
+2023-03-23 13:39:13.036 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:39:13.037 +04:30 [INF] Request finished HTTP/2 POST https://localhost:44334/api/Authentication/Authenticate application/json-patch+json 50 - 200 - text/plain;+charset=utf-8 1761.0679ms
+2023-03-23 13:40:35.533 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 13:40:35.533 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 13:40:35.547 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 13:40:35.547 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 13:40:35.547 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 13:40:35.547 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 13:40:35.558 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 13:40:35.563 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 13:40:35.564 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/api/CityDbController - - - 401 - - 31.6180ms
+2023-03-23 13:41:06.245 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 13:41:06.245 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 13:41:06.255 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 13:41:06.256 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 13:41:06.256 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 13:41:06.261 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 13:41:06.262 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 13:41:06.262 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 13:41:06.264 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 18.9991ms
+2023-03-23 13:41:13.885 +04:30 [INF] Request starting HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53
+2023-03-23 13:41:13.886 +04:30 [DBG] POST requests are not supported
+2023-03-23 13:41:13.886 +04:30 [DBG] 1 candidate(s) found for the request path '/api/Authentication/Authenticate'
+2023-03-23 13:41:13.886 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)' with route pattern 'api/Authentication/Authenticate' is valid for the request path '/api/Authentication/Authenticate'
+2023-03-23 13:41:13.886 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:41:13.886 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 13:41:13.886 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:41:13.886 +04:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthinticationRequestBody) on controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api).
+2023-03-23 13:41:13.886 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-23 13:41:13.886 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-23 13:41:13.886 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-23 13:41:13.886 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-23 13:41:13.886 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-23 13:41:13.887 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 13:41:13.887 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 13:41:13.887 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 13:41:13.887 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' using the name '' in request data ...
+2023-03-23 13:41:13.887 +04:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-23 13:41:13.887 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-23 13:41:13.887 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:41:13.887 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:41:13.888 +04:30 [DBG] Attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 13:41:13.888 +04:30 [DBG] Done attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:41:13.927 +04:30 [INF] Executing action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) - Validation state: "Valid"
+2023-03-23 13:41:13.928 +04:30 [INF] Executed action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.7906ms.
+2023-03-23 13:41:13.930 +04:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-23 13:41:13.931 +04:30 [DBG] No information found on request to perform content negotiation.
+2023-03-23 13:41:13.931 +04:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-23 13:41:13.931 +04:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-23 13:41:13.931 +04:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-23 13:41:13.932 +04:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 13:41:13.933 +04:30 [INF] Executed action CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) in 46.2731ms
+2023-03-23 13:41:13.933 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:41:13.933 +04:30 [INF] Request finished HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53 - 200 - text/plain;+charset=utf-8 47.7307ms
+2023-03-23 13:42:16.543 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 13:42:16.553 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 13:42:16.553 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 13:42:16.553 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 13:42:16.553 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 13:42:16.783 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 13:42:16.923 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 13:42:16.924 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 13:42:16.928 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 13:42:16.940 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 397.9324ms
+2023-03-23 13:42:33.971 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 13:42:33.971 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 13:42:33.971 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 13:42:33.971 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 13:42:33.971 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 13:42:33.972 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 13:42:33.972 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 13:42:33.972 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 13:42:33.972 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 13:42:33.974 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 3.6421ms
+2023-03-23 13:43:49.925 +04:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-23 13:43:50.032 +04:30 [DBG] Hosting starting
+2023-03-23 13:43:50.050 +04:30 [INF] User profile is available. Using 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-23 13:43:50.053 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-93d63c13-ab38-4ac8-878f-6a1ab0efbdcb.xml'.
+2023-03-23 13:43:50.061 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-d08f23d7-6038-487c-bc6f-f62b57552296.xml'.
+2023-03-23 13:43:50.061 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-e761ebac-93cc-41e9-ad87-8e5b6346b634.xml'.
+2023-03-23 13:43:50.070 +04:30 [DBG] Found key {93d63c13-ab38-4ac8-878f-6a1ab0efbdcb}.
+2023-03-23 13:43:50.075 +04:30 [DBG] Found key {d08f23d7-6038-487c-bc6f-f62b57552296}.
+2023-03-23 13:43:50.076 +04:30 [DBG] Found key {e761ebac-93cc-41e9-ad87-8e5b6346b634}.
+2023-03-23 13:43:50.084 +04:30 [DBG] Considering key {e761ebac-93cc-41e9-ad87-8e5b6346b634} with expiration date 2023-05-16 15:21:54Z as default key.
+2023-03-23 13:43:50.086 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-23 13:43:50.090 +04:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-23 13:43:50.092 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-23 13:43:50.097 +04:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-23 13:43:50.099 +04:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-23 13:43:50.103 +04:30 [DBG] Using key {e761ebac-93cc-41e9-ad87-8e5b6346b634} as the default key.
+2023-03-23 13:43:50.105 +04:30 [DBG] Key ring with default key {e761ebac-93cc-41e9-ad87-8e5b6346b634} was loaded during application startup.
+2023-03-23 13:43:50.149 +04:30 [DBG] Loaded hosting startup assembly CityInfo.Api
+2023-03-23 13:43:50.149 +04:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-23 13:43:50.149 +04:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-23 13:43:50.150 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 13:43:50.150 +04:30 [INF] Hosting environment: Development
+2023-03-23 13:43:50.150 +04:30 [INF] Content root path: F:\tamrin asp\CityInfo.Api\CityInfo.Api\
+2023-03-23 13:43:50.150 +04:30 [DBG] Hosting started
+2023-03-23 13:43:50.174 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - -
+2023-03-23 13:43:50.202 +04:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-23 13:43:50.301 +04:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-23 13:43:50.451 +04:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-23 13:43:50.455 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - - - 200 - text/html;charset=utf-8 285.2114ms
+2023-03-23 13:43:50.525 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - -
+2023-03-23 13:43:50.538 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 12.4295ms
+2023-03-23 13:43:55.650 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - -
+2023-03-23 13:43:55.834 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.3772ms
+2023-03-23 13:44:20.861 +04:30 [INF] Request starting HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53
+2023-03-23 13:44:20.867 +04:30 [DBG] POST requests are not supported
+2023-03-23 13:44:20.908 +04:30 [DBG] 1 candidate(s) found for the request path '/api/Authentication/Authenticate'
+2023-03-23 13:44:20.917 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)' with route pattern 'api/Authentication/Authenticate' is valid for the request path '/api/Authentication/Authenticate'
+2023-03-23 13:44:20.918 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:44:21.527 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 13:44:21.533 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:44:21.558 +04:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthinticationRequestBody) on controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api).
+2023-03-23 13:44:21.560 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-23 13:44:21.561 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-23 13:44:21.561 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-23 13:44:21.561 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-23 13:44:21.561 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-23 13:44:21.562 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 13:44:21.565 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 13:44:21.569 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 13:44:21.571 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' using the name '' in request data ...
+2023-03-23 13:44:21.573 +04:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-23 13:44:21.573 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-23 13:44:21.727 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:44:21.727 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:44:21.728 +04:30 [DBG] Attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 13:44:21.740 +04:30 [DBG] Done attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 13:44:22.079 +04:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-23 13:44:22.085 +04:30 [DBG] No information found on request to perform content negotiation.
+2023-03-23 13:44:22.085 +04:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-23 13:44:22.086 +04:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-23 13:44:22.087 +04:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-23 13:44:22.088 +04:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 13:44:22.095 +04:30 [INF] Executed action CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) in 527.6843ms
+2023-03-23 13:44:22.099 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 13:44:22.111 +04:30 [INF] Request finished HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53 - 200 - text/plain;+charset=utf-8 1250.0343ms
+2023-03-23 13:44:39.172 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 13:44:39.172 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 13:44:39.174 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 13:44:39.174 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 13:44:39.175 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 13:44:39.192 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 13:44:39.220 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 13:44:39.225 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 13:44:39.237 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 13:44:39.238 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 66.3326ms
+2023-03-23 14:11:54.709 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api - -
+2023-03-23 14:11:54.709 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 14:11:54.709 +04:30 [DBG] No candidates found for the request path '/api'
+2023-03-23 14:11:54.710 +04:30 [DBG] Request did not match any endpoints
+2023-03-23 14:11:54.713 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 14:11:54.713 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 14:11:54.718 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api - - - 404 - - 9.6031ms
+2023-03-23 14:12:38.567 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 14:12:38.567 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 14:12:38.567 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 14:12:38.567 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 14:12:38.567 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 14:12:38.568 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 14:12:38.568 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 14:12:38.568 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 14:12:38.575 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 8.4075ms
+2023-03-23 14:12:42.988 +04:30 [INF] Request starting HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53
+2023-03-23 14:12:42.989 +04:30 [DBG] POST requests are not supported
+2023-03-23 14:12:42.989 +04:30 [DBG] 1 candidate(s) found for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:12:42.989 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)' with route pattern 'api/Authentication/Authenticate' is valid for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:12:42.989 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:12:42.989 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 14:12:42.989 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:12:42.990 +04:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthinticationRequestBody) on controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api).
+2023-03-23 14:12:42.990 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-23 14:12:42.990 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-23 14:12:42.990 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-23 14:12:42.990 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-23 14:12:42.990 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-23 14:12:42.990 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:12:42.990 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:12:42.991 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:12:42.992 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' using the name '' in request data ...
+2023-03-23 14:12:42.992 +04:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-23 14:12:42.992 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-23 14:12:42.993 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:12:42.993 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:12:42.993 +04:30 [DBG] Attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:12:42.993 +04:30 [DBG] Done attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:12:42.994 +04:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-23 14:12:42.994 +04:30 [DBG] No information found on request to perform content negotiation.
+2023-03-23 14:12:42.995 +04:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-23 14:12:42.995 +04:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-23 14:12:42.995 +04:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-23 14:12:42.996 +04:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 14:12:43.011 +04:30 [INF] Executed action CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) in 21.2125ms
+2023-03-23 14:12:43.012 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:12:43.013 +04:30 [INF] Request finished HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53 - 200 - text/plain;+charset=utf-8 24.1731ms
+2023-03-23 14:12:46.030 +04:30 [INF] Request starting HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53
+2023-03-23 14:12:46.030 +04:30 [DBG] POST requests are not supported
+2023-03-23 14:12:46.031 +04:30 [DBG] 1 candidate(s) found for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:12:46.031 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)' with route pattern 'api/Authentication/Authenticate' is valid for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:12:46.031 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:12:46.031 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 14:12:46.031 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:12:46.031 +04:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthinticationRequestBody) on controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api).
+2023-03-23 14:12:46.031 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-23 14:12:46.031 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-23 14:12:46.031 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-23 14:12:46.031 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-23 14:12:46.031 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-23 14:12:46.031 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:12:46.031 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:12:46.031 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:12:46.031 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' using the name '' in request data ...
+2023-03-23 14:12:46.032 +04:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-23 14:12:46.032 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-23 14:12:46.032 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:12:46.032 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:12:46.032 +04:30 [DBG] Attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:12:46.033 +04:30 [DBG] Done attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:12:46.035 +04:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-23 14:12:46.035 +04:30 [DBG] No information found on request to perform content negotiation.
+2023-03-23 14:12:46.035 +04:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-23 14:12:46.035 +04:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-23 14:12:46.035 +04:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-23 14:12:46.035 +04:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 14:12:46.036 +04:30 [INF] Executed action CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) in 4.569ms
+2023-03-23 14:12:46.036 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:12:46.036 +04:30 [INF] Request finished HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 53 - 200 - text/plain;+charset=utf-8 5.7991ms
+2023-03-23 14:13:08.933 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 14:13:08.934 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 14:13:08.934 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 14:13:08.934 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 14:13:08.934 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 14:13:08.935 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 14:13:08.936 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 14:13:08.937 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 14:13:08.937 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 14:13:08.942 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 9.1463ms
+2023-03-23 14:14:37.853 +04:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-23 14:14:38.007 +04:30 [DBG] Hosting starting
+2023-03-23 14:14:38.047 +04:30 [INF] User profile is available. Using 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-23 14:14:38.051 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-93d63c13-ab38-4ac8-878f-6a1ab0efbdcb.xml'.
+2023-03-23 14:14:38.090 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-d08f23d7-6038-487c-bc6f-f62b57552296.xml'.
+2023-03-23 14:14:38.091 +04:30 [DBG] Reading data from file 'C:\Users\TOPSHO\AppData\Local\ASP.NET\DataProtection-Keys\key-e761ebac-93cc-41e9-ad87-8e5b6346b634.xml'.
+2023-03-23 14:14:38.100 +04:30 [DBG] Found key {93d63c13-ab38-4ac8-878f-6a1ab0efbdcb}.
+2023-03-23 14:14:38.104 +04:30 [DBG] Found key {d08f23d7-6038-487c-bc6f-f62b57552296}.
+2023-03-23 14:14:38.105 +04:30 [DBG] Found key {e761ebac-93cc-41e9-ad87-8e5b6346b634}.
+2023-03-23 14:14:38.117 +04:30 [DBG] Considering key {e761ebac-93cc-41e9-ad87-8e5b6346b634} with expiration date 2023-05-16 15:21:54Z as default key.
+2023-03-23 14:14:38.120 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-23 14:14:38.125 +04:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-03-23 14:14:38.127 +04:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-03-23 14:14:38.132 +04:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-03-23 14:14:38.135 +04:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-03-23 14:14:38.142 +04:30 [DBG] Using key {e761ebac-93cc-41e9-ad87-8e5b6346b634} as the default key.
+2023-03-23 14:14:38.143 +04:30 [DBG] Key ring with default key {e761ebac-93cc-41e9-ad87-8e5b6346b634} was loaded during application startup.
+2023-03-23 14:14:38.242 +04:30 [DBG] Loaded hosting startup assembly CityInfo.Api
+2023-03-23 14:14:38.242 +04:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-23 14:14:38.242 +04:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-23 14:14:38.243 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 14:14:38.243 +04:30 [INF] Hosting environment: Development
+2023-03-23 14:14:38.243 +04:30 [INF] Content root path: F:\tamrin asp\CityInfo.Api\CityInfo.Api\
+2023-03-23 14:14:38.243 +04:30 [DBG] Hosting started
+2023-03-23 14:14:38.275 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/index.html - -
+2023-03-23 14:14:38.320 +04:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-23 14:14:38.469 +04:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-23 14:14:38.692 +04:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-23 14:14:38.695 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/index.html - - - 200 - text/html;charset=utf-8 424.6671ms
+2023-03-23 14:14:38.883 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - -
+2023-03-23 14:14:38.891 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/_framework/aspnetcore-browser-refresh.js - - - 200 11946 application/javascript;+charset=utf-8 7.8415ms
+2023-03-23 14:14:43.901 +04:30 [INF] Request starting HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - -
+2023-03-23 14:14:44.218 +04:30 [INF] Request finished HTTP/2 GET https://localhost:44334/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 317.0732ms
+2023-03-23 14:14:57.175 +04:30 [INF] Request starting HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 56
+2023-03-23 14:14:57.179 +04:30 [DBG] POST requests are not supported
+2023-03-23 14:14:57.226 +04:30 [DBG] 1 candidate(s) found for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:14:57.233 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)' with route pattern 'api/Authentication/Authenticate' is valid for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:14:57.238 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:14:57.877 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 14:14:57.879 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:14:57.905 +04:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthinticationRequestBody) on controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api).
+2023-03-23 14:14:57.906 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-23 14:14:57.906 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-23 14:14:57.907 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-23 14:14:57.907 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-23 14:14:57.907 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-23 14:14:57.908 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:14:57.909 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:14:57.912 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:14:57.914 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' using the name '' in request data ...
+2023-03-23 14:14:57.915 +04:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-23 14:14:57.916 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-23 14:14:58.097 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:14:58.097 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:14:58.098 +04:30 [DBG] Attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:14:58.108 +04:30 [DBG] Done attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:14:58.227 +04:30 [INF] Executing action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) - Validation state: "Valid"
+2023-03-23 14:14:58.608 +04:30 [INF] Executed action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 374.2706ms.
+2023-03-23 14:14:58.610 +04:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-23 14:14:58.613 +04:30 [DBG] No information found on request to perform content negotiation.
+2023-03-23 14:14:58.613 +04:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-23 14:14:58.613 +04:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-23 14:14:58.614 +04:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-23 14:14:58.614 +04:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 14:14:58.629 +04:30 [INF] Executed action CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) in 711.2481ms
+2023-03-23 14:14:58.629 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:14:58.630 +04:30 [INF] Request finished HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 56 - 200 - text/plain;+charset=utf-8 1454.8139ms
+2023-03-23 14:15:13.828 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 14:15:13.831 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 14:15:13.833 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 14:15:13.833 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 14:15:13.833 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 14:15:13.845 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 14:15:13.881 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 14:15:13.892 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 14:15:13.902 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 14:15:13.911 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 82.7212ms
+2023-03-23 14:15:31.712 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 14:15:31.712 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 14:15:31.712 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 14:15:31.712 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 14:15:31.712 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 14:15:31.717 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 14:15:31.717 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 14:15:31.718 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 14:15:31.718 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 14:15:31.743 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 30.7953ms
+2023-03-23 14:16:07.744 +04:30 [INF] Request starting HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 56
+2023-03-23 14:16:07.744 +04:30 [DBG] POST requests are not supported
+2023-03-23 14:16:07.744 +04:30 [DBG] 1 candidate(s) found for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:16:07.745 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)' with route pattern 'api/Authentication/Authenticate' is valid for the request path '/api/Authentication/Authenticate'
+2023-03-23 14:16:07.746 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:16:07.746 +04:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-03-23 14:16:07.746 +04:30 [INF] Executing endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:16:07.747 +04:30 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthinticationRequestBody) on controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api).
+2023-03-23 14:16:07.747 +04:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-23 14:16:07.747 +04:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-23 14:16:07.750 +04:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-23 14:16:07.750 +04:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-23 14:16:07.750 +04:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-23 14:16:07.750 +04:30 [DBG] Executing controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:16:07.750 +04:30 [DBG] Executed controller factory for controller CityInfo.Api.Controllers.AuthenticationController (CityInfo.Api)
+2023-03-23 14:16:07.751 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:16:07.751 +04:30 [DBG] Attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' using the name '' in request data ...
+2023-03-23 14:16:07.751 +04:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-23 14:16:07.751 +04:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-23 14:16:07.751 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:16:07.752 +04:30 [DBG] Done attempting to bind parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:16:07.752 +04:30 [DBG] Attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody' ...
+2023-03-23 14:16:07.752 +04:30 [DBG] Done attempting to validate the bound parameter 'authinticationRequestBody' of type 'CityInfo.Api.Controllers.AuthenticationController+AuthinticationRequestBody'.
+2023-03-23 14:16:08.146 +04:30 [INF] Executing action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) - Validation state: "Valid"
+2023-03-23 14:16:08.147 +04:30 [INF] Executed action method CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5338ms.
+2023-03-23 14:16:08.147 +04:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-23 14:16:08.147 +04:30 [DBG] No information found on request to perform content negotiation.
+2023-03-23 14:16:08.147 +04:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-23 14:16:08.148 +04:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-23 14:16:08.148 +04:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-23 14:16:08.148 +04:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 14:16:08.151 +04:30 [INF] Executed action CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api) in 401.2145ms
+2023-03-23 14:16:08.151 +04:30 [INF] Executed endpoint 'CityInfo.Api.Controllers.AuthenticationController.Authenticate (CityInfo.Api)'
+2023-03-23 14:16:08.152 +04:30 [INF] Request finished HTTP/1.1 POST https://localhost:44334/api/Authentication/Authenticate application/json 56 - 200 - text/plain;+charset=utf-8 407.9318ms
+2023-03-23 14:16:26.489 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:44334/api/CityDbController - -
+2023-03-23 14:16:26.489 +04:30 [DBG] The request path  does not match the path filter
+2023-03-23 14:16:26.489 +04:30 [DBG] 1 candidate(s) found for the request path '/api/CityDbController'
+2023-03-23 14:16:26.489 +04:30 [DBG] Endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)' with route pattern 'api/CityDbController' is valid for the request path '/api/CityDbController'
+2023-03-23 14:16:26.489 +04:30 [DBG] Request matched endpoint 'CityInfo.Api.Controllers.CityDbController.GetCities (CityInfo.Api)'
+2023-03-23 14:16:26.491 +04:30 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 14:16:26.491 +04:30 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 14:16:26.492 +04:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 14:16:26.492 +04:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 14:16:26.497 +04:30 [INF] Request finished HTTP/1.1 GET https://localhost:44334/api/CityDbController - - - 401 - - 8.4150ms
